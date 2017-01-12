@@ -1,0 +1,65 @@
+body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.textbox {
+    position: relative;
+    height: auto;
+    background: white;
+    padding: 50px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    z-index: 20;
+    box-shadow: 0 0 20px rgba(80, 80, 80, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textbox-first {
+  padding-top: 125px;
+}
+
+@media screen and (max-width: 766px) {
+  .textbox-first {
+      padding-top: 90px;
+  }
+}
+
+.parallaxbox {
+    height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+    z-index: 10;
+}
+
+#pb0 {
+  background-image: url("../imgs/assembly.jpg");
+}
+
+#pb1 {
+  background-image: url("../imgs/speakers.jpg");
+}
+
+#pb2 {
+  background-image: url("../imgs/virtual-reality.jpg");
+}
+
+#pb3 {
+  background-image: url("../imgs/last-of-us.jpg");
+}
+
+#pb4 {
+  background-image: url("../imgs/nintendo-switch.jpg");
+}
+
+#pb5 {
+  background-image: url("../imgs/heisenberg.jpg");
+}
