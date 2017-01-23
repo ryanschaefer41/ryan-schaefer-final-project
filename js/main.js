@@ -27,7 +27,7 @@ function initialImage(image, factor) {
     var positionY = (offset.top - w.scrollTop()) / factor;
     // console.log(positionY);
 
-    //parallax scrolling only vertically (add/change to positionX for horizantal)
+    //parallax scrolling vertically (add/change to positionX for horizantal)
     $(image).css('background-position', '50% ' + positionY + 'px');
     //$(element).css('background-position', posx + 'px '+posy + 'px');
 }
