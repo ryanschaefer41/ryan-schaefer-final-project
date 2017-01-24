@@ -40,6 +40,38 @@ body {
     z-index: 10;
 }
 
+.about-me {
+  margin: 150px 25%;
+  /*float: left;*/
+  height: 300px;
+  width: 50%;
+  background-color: rgba(245,245,245,.85);
+  z-index: 100;
+  text-align: center;
+  color: black;
+  padding: 70px 20px;
+}
+
+.my-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.walter-white {
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-website {
+  font-family: 'Raleway', sans-serif;
+}
+
+.more-on-me {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+
+}
+
 #pb0 {
   background-image: url("../imgs/assembly.jpg");
 }
