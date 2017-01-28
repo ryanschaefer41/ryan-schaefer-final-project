@@ -41,7 +41,7 @@ body {
 }
 
 .about-me {
-  margin: 150px 25%;
+  margin: 120px 25%;
   /*float: left;*/
   height: 300px;
   width: 50%;
@@ -52,10 +52,42 @@ body {
   padding: 70px 20px;
 }
 
+/*button {
+  text-align: center;
+  color: white !important;
+  background-color: rgba(255, 200, 0, 1);
+  padding: 8px 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 2px solid white;
+  display: block;
+  transition-duration: 0.4s;
+  margin: 0 28% 0 10% !important;
+
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
+}*/
+
 .my-name {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 32px;
+}
+
+@media screen and (max-width: 887px) {
+  .my-name {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .my-name {
+    font-size: 20px;
+  }
 }
 
 .walter-white {
@@ -64,12 +96,24 @@ body {
 
 .my-website {
   font-family: 'Raleway', sans-serif;
+  margin-top: 40px;
 }
 
-.more-on-me {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+.what-i-can-do {
+  font-size: 22px;
+  margin-top: -20px;
+}
 
+@media screen and (max-width: 887px) {
+  .what-i-can-do {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .what-i-can-do {
+    font-size: 16px;
+  }
 }
 
 #pb0 {

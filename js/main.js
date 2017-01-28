@@ -6,28 +6,28 @@ console.log(cavaliers);
 function parallax() {
     initialImage("#pb0");
     initialImage("#pb1");
-    initialImage("#pb2", 4);
-    initialImage("#pb3");
+    initialImage("#pb2");
+    initialImage("#pb3", 4);
     initialImage("#pb4");
     initialImage("#pb5")
 }
 
 function initialImage(image, factor) {
-    // if factor is 0, null, or undefined, return 2
+    // if factor is 0, null, or undefined, return 2. controls speed of how images scroll.
     factor = factor || 2;
 
     //get current position relative to document
     var offset = $(image).offset();
-    // console.log(offset);
+    console.log(offset);
     var w = $(window);
-    // console.log(w);
+    console.log(w);
 
     //initialImage scrolls at half speed of boxes
     var positionX = (offset.left - w.scrollLeft()) / factor;
     var positionY = (offset.top - w.scrollTop()) / factor;
     // console.log(positionY);
 
-    //parallax scrolling vertically (add/change to positionX for horizantal)
+    //parallax scrolling vertically (add/change to positionX for horizontal)
     $(image).css('background-position', '50% ' + positionY + 'px');
     //$(element).css('background-position', posx + 'px '+posy + 'px');
 }
